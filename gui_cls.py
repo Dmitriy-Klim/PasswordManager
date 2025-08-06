@@ -15,15 +15,6 @@ class MainWindow(Tk):
         self.logint = ""
         self.sitet = ""
 
-
-        #image_path = "backgroind_img.jpg"
-        #bg_image = Image.open(image_path)
-        #new_size = (500, 250)
-        #bg_image.thumbnail(new_size)
-        #background = ImageTk.PhotoImage(bg_image)
-        #background_label = Label(self, image=background)
-        #background_label.place(x=0, y=0, relwidth=1, relheight=1)
-
         login_label = ttk.Label(self, text="Username")
         login_label.config(font=("calibri", 10))
         login_label.grid(row=0, column=0, sticky="e", padx=10, pady=0)
